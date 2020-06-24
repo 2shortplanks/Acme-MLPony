@@ -3,4 +3,4 @@ orbs:
   perl: circleci/perl@1.0.0
 workspace:
   jobs:
-    - perl/build:
+    - perl/build
