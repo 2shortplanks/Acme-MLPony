@@ -1,5 +1,7 @@
 package Acme::MLPony;
 
+# ABSTRACT: Turn your source code into My Little Pony
+
 use strict;
 use warnings;
 
