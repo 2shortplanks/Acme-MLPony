@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  perl: circleci/perl@dev:Alpha
+  perl: circleci/perl@1.0.0
 workspace:
-    jobs:
-      - perl/build:
+  jobs:
+    - perl/build:
