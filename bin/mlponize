@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use Acme::MLPony qw( pony_file );
+
+for my $filename (@ARGV) {
+    pony_file( $filename )
+}
