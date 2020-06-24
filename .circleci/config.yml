@@ -2,5 +2,6 @@ version: 2.1
 orbs:
   perl: circleci/perl@1.0.0
 workflows:
-  jobs:
-    perl/build:
+  smoke-module:
+    jobs:
+      - perl/build
