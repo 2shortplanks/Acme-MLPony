@@ -3,6 +3,6 @@ orbs:
   perl: circleci/perl@1.0.0
 workflows:
   version: 2.1
-  jobs:
-    main:
+  main:
+    jobs:
       - perl/build
